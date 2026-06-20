@@ -50,8 +50,11 @@ public class BukuKontak {
             String baris;
             while ((baris = pembaca.readLine()) != null) {
                 String[] bagian = baris.split(";");
-                if (bagian.length == 2) {
-                    daftar.add(new kontak(bagian[0], bagian[1]));
+                if (bagian.length == 3) {
+                daftar.add(new kontak(
+                        bagian[0],
+                        bagian[1],
+                        bagian[2]));
                 }
             }
             System.out.println("Kontak dimuat dari " + namaBerkas);

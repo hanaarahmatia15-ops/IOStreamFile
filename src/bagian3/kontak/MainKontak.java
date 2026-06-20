@@ -12,9 +12,15 @@ public class MainKontak {
     public static void main(String[] args) {
         // Membuat objek pengelola dan mengisinya
         BukuKontak buku = new BukuKontak("kontak.txt");
-        buku.tambahKontak(new kontak("Andi", "0811111"));
-        buku.tambahKontak(new kontak("Budi", "0822222"));
-        buku.tambahKontak(new kontak("Citra", "0833333"));
+        
+        buku.tambahKontak(
+        new kontak("Aqis", "085740574633", "balqissnr15@gmail.com"));
+        
+        buku.tambahKontak(
+        new kontak("Yuli", "081251550319", "yuli86@gmail.com"));
+
+        buku.tambahKontak(
+        new kontak("Layla", "082157591102", "EffaLaayla70@gmail.com"));
         
         buku.cariKontak("Budi");
         buku.cariKontak("Dewi");
