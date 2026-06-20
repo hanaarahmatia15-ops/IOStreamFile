@@ -15,6 +15,10 @@ public class MainKontak {
         buku.tambahKontak(new kontak("Andi", "0811111"));
         buku.tambahKontak(new kontak("Budi", "0822222"));
         buku.tambahKontak(new kontak("Citra", "0833333"));
+        
+        buku.cariKontak("Budi");
+        buku.cariKontak("Dewi");
+
         buku.tampilkanSemua();
         buku.simpanKeBerkas();
         System.out.println();

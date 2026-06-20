@@ -63,4 +63,14 @@ public class BukuKontak {
     public int jumlahKontak() {
         return daftar.size();
     }
+    
+    public void cariKontak(String nama) {
+    for (kontak k : daftar) {
+        if (k.getNama().equals(nama)) {
+            System.out.println("Ditemukan: " + k.info());
+            return;
+        }
+    }
+    System.out.println("Kontak " + nama + " tidak ditemukan.");
+    }
 }
