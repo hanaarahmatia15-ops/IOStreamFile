@@ -1,0 +1,5 @@
+Pensil;3000.0;50
+Buku Tulis;5000.0;40
+Pulpen;4000.0;30
+Air Mineral;4000.0;100
+Roti;7000.0;25
